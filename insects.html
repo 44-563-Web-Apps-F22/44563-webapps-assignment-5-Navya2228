@@ -15,10 +15,12 @@ tr:hover{
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script></head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 <body>
 
   <nav class="navbar navbar-expand-md navbar-light and bg-light">
@@ -69,13 +71,13 @@ tr:hover{
 </div>
 <div class="container">
   <a target ="_blank" href="Alder flies.jpg">
-  <img src="Alder flies.jpg" alt="Alder flies"height="10%" width="10%" padding="30px">
+  <img src="Alder flies.jpg" alt="Alder flies" style="width: 60px; height: 60px ;">
   </a>
 <a target ="_blank"  href="dragon flies.jpg">
-  <img src="dragon flies.jpg" alt="dragon flies.jpg"height="10%" width="10%" padding="30px">
+  <img src="dragon flies.jpg" alt="dragon flies.jpg" style="width: 60px; height: 60px ;">
 </a>
 <a target ="_blank" href="lily leaf beetles.jpg">
-  <img src="lily leaf beetles.jpg" alt="lily leaf beetles"height="10%" width="10%" padding="30px">
+  <img src="lily leaf beetles.jpg" alt="lily leaf beetles" style="width: 60px; height: 60px ;">
 </a>
   
 </div>
@@ -166,12 +168,8 @@ tr:hover{
   </button>
   <br>
   <div class="dropdown-menu">
-  
-    <ul>
-      <li><a class="dropdown-item" href="basic.html">Basic</a></li>
-      <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
-     
-    </ul>
+      <a class="dropdown-item" href="basic.html">Basic</a>
+      <a class="dropdown-item" href="advanced.html">Advanced</a>
     
   </div>
 </div>
@@ -196,6 +194,39 @@ tr:hover{
     <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
+
+<h3>BONUS</h3>
+
+<div class="card" style="width: 18rem;">
+  <img src="Alder flies.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Alder Flies</h5>
+    <p class="card-text">Adult alderflies are usually black, dark brown, or gray. They look a lot like stoneflies but are more closely related to fishflies and dobsonflies.</p>
+    <button type="button" class="btn btn-success">
+      <a href="https://mdc.mo.gov/discover-nature/field-guide/alderflies">Insect 1</a>
+    </button>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="dragon flies.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Dragon Flies</h5>
+    <p class="card-text">Dragonflies are predatory insects, both in their aquatic nymphs stage (also known as naiads) and as adults. In some species, the nymphal stage lasts for up to five years, and the adult stage may be as long as ten weeks, but most species have an adult lifespan in the order of five weeks or less, and some survive for only a few days.</p>
+    <button type="button" class="btn btn-success">
+      <a href="https://www.smithsonianmag.com/science-nature/14-fun-facts-about-dragonflies-96882693/.">Insect 2</a>
+    </button>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="lily leaf beetles.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Lily Leaf Beetles</h5>
+    <p class="card-text">The lily leaf beetle larvae, or grubs, cause the most damage. Hundreds of larvae may hatch at one time, and they begin eating immediately</p>
+    <button type="button" class="btn btn-success">
+      <a href="https://www.gardeners.com/how-to/lily-beetle/8090.html">Insect 3</a>
+    </button>
+  </div>
+</div>
 
 </body>
 </html>
